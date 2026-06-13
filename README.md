@@ -1,16 +1,66 @@
-# React + Vite
+# 🚗 JourneySafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JourneySafe is a road-trip safety platform designed for Indian travelers. It helps users discover clean washrooms, fuel stations, restaurants, and safe rest stops along their journey through community-driven reviews, ratings, photos, and safety insights.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Route Search with location autocomplete
+* Discover Washrooms, Fuel Stations, Restaurants, and Rest Stops
+* Community Reviews and Ratings
+* Photo Upload for Reviews
+* Safety Score for Places
+* Google Maps Navigation Support
+* Responsive and Modern UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend Services
+
+* Supabase (PostgreSQL Database)
+* Supabase Storage
+
+### Maps & Location
+
+* OpenStreetMap
+* Nominatim API
+
+## Database
+
+### Places
+
+* Name
+* Type
+* Description
+* Rating
+* Review Count
+* Latitude
+* Longitude
+
+### Reviews
+
+* User Name
+* Rating
+* Review Text
+* Image Upload
+* Timestamp
+
+## Future Enhancements
+
+* Google Authentication
+* FastAPI Backend Integration
+* AI-based Route Risk Analysis
+* Women's Safety Mode
+* Emergency Assistance Features
+* Community Incident Reporting
+
+## Author
+
+Pushti Shah
+
+B.Tech Computer Science Engineering
